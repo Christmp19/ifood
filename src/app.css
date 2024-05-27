@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    border-radius: 50px;
+    transition: all 0.4s;
+    @apply bg-green-500 md:h-12 md:w-12 h-10 w-10;
+}
+
+.back-to-top i {
+    @apply text-3xl text-white;
+}
+
+.back-to-top:hover {
+    @apply bg-green-600 text-white;
+}
+
+.back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Pour une transition de défilement en douceur */
+html {
+    scroll-behavior: smooth;
+}
