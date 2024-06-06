@@ -73,7 +73,7 @@
     <Navbar />
 </header>
 
-<main class="overflow-x-hidden">
+<main>
     <Hero />
     <About />
 </main>

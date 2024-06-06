@@ -81,20 +81,24 @@
                 >
             </div>
             </div>
-            <div class="mt-8 flex flex-row gap-1">
+            <div class="mt-8 grid grid-cols-2 gap-2 mx-4">
                 {#each ServiceImages as item, i (i)}
                     <div
-                        class="flex flex-row dark:bg-gray-300 items-center justify-center gap-2 rounded-lg bg-white shadow-md p-4"
+                        class="flex flex-row dark:bg-gray-300 items-center justify-center rounded-lg bg-white shadow-md p-6"
                         data-aos="fade-up"
                     >
-                        <img
+                        <div class="w-1/4">
+                            <img
                             src={ServiceImages[i].src}
                             alt={ServiceImages[i].alt}
-                            class="w-8"
+                            class="md:w-10 w-6"
                         />
-                        <span class="text-md font-bold text-black">
+                        </div>
+                        <div class="w-3/4">
+                            <span class="text-md font-bold text-black">
                             {ServiceImages[i].title}
                         </span>
+                        </div>
                     </div>
                 {/each}
             </div>
