@@ -5,6 +5,7 @@
     import Navbar from "./components/header/Navbar.svelte";
     import Hero from "./components/main/Hero.svelte";
     import About from "./components/main/About.svelte";
+    import Menu from "./components/main/Menu.svelte";
 
     // Code pour le bouton retour en haut
     let backtotop: HTMLAnchorElement;
@@ -76,6 +77,7 @@
 <main>
     <Hero />
     <About />
+    <Menu />
 </main>
 
 <footer></footer>

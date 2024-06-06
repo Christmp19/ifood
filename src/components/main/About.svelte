@@ -29,6 +29,7 @@
     });
 </script>
 
+<!-- About section -->
 <section
     class="flex justify-center items-center bg-gray-200 py-8 px-3 dark:bg-gray-900"
     id="about"
@@ -81,21 +82,21 @@
                 >
             </div>
             </div>
-            <div class="mt-8 grid grid-cols-2 gap-2 mx-4">
+            <div class="mt-8 grid grid-cols-2 gap-2">
                 {#each ServiceImages as item, i (i)}
                     <div
-                        class="flex flex-row dark:bg-gray-300 items-center justify-center rounded-lg bg-white shadow-md p-6"
+                        class="flex flex-row bg-gray-50 transition-hover transition-colors duration-300 hover:bg-blue-900 dark:hover:bg-blue-950 dark:bg-gray-700 items-center justify-center rounded-lg shadow-md md:p-6 p-3"
                         data-aos="fade-up"
                     >
                         <div class="w-1/4">
                             <img
                             src={ServiceImages[i].src}
                             alt={ServiceImages[i].alt}
-                            class="md:w-10 w-6"
+                            class="md:w-10 w-8"
                         />
                         </div>
-                        <div class="w-3/4">
-                            <span class="text-md font-bold text-black">
+                        <div class="w-3/4 flex justify-center md:justify-start items-center">
+                            <span class="text-md transition-colors duration-300 group-hover:text-white font-bold text-gray-900 dark:text-white/90">
                             {ServiceImages[i].title}
                         </span>
                         </div>

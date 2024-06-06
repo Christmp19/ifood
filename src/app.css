@@ -63,3 +63,11 @@ html::-webkit-scrollbar-thumb {
 .satisfy-regular {
     font-family: "Satisfy", cursive;
 }
+
+.transition-hover:hover div>h3, .transition-hover:hover div>span {
+    @apply text-white;
+}
+
+.transition-hover:hover div>p {
+    @apply text-green-500;
+}
