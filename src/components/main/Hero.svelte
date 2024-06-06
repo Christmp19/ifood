@@ -26,7 +26,7 @@
 
 <!-- Hero section -->
 <section class="dark:bg-gray-800 bg-gray-100 min-h-screen flex justify-center items-center" id="home">
-  <div class='flex flex-col items-center justify-center lg:flex-row mx-auto lg:max-w-6xl md:max-w-4xl max-w-2xl md:px-12 px-4 md:pb-20 pt-20 md:pt-36 lg:pt-28 pb-20'>
+  <div class='flex flex-col items-center justify-center lg:flex-row mx-auto lg:max-w-6xl md:max-w-4xl max-w-2xl md:px-12 px-4 md:pb-20 pt-20 md:pt-10 lg:pt-28 pb-20'>
     <div
       class="order-2 lg:order-1 content text-center lg:w-1/2 lg:text-left lg:pt-10 md:pt-14"
       data-aos="fade-up"

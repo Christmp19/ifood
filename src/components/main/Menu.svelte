@@ -2,12 +2,13 @@
     import { menuItems } from "../../assets/ExportImages";
 </script>
 
+<!-- Menu section -->
 <section
     class="flex justify-center items-center bg-gray-100 py-8 px-3 dark:bg-gray-800"
     id="menu"
 >
     <div class="lg:flex-row mx-auto lg:max-w-6xl md:max-w-4xl max-w-2xl px-4">
-        <div class="heading text-center mb-8">
+        <div class="text-center mb-8">
             <h2 class="satisfy-regular text-green-600 text-3xl">Notre Carte</h2
             >
             <h3

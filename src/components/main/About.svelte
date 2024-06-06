@@ -48,7 +48,7 @@
                 class="relative lg:w-full w-4/5 transition-transform duration-500"
             />
         </div>
-        <div class="lg:w-1/2 w-full text-center md:text-start">
+        <div class="lg:w-1/2 w-full text-center lg:text-start">
             <div>
                 <h2 class="satisfy-regular text-green-600 text-3xl">
                 Pourquoi Nous Choisir?
@@ -60,7 +60,7 @@
             </h3>
             <div
             bind:this={imageContainer}
-            class="flex lg:hidden justify-center items-center lg:w-1/2 mt-3"
+            class="flex lg:hidden justify-center items-center lg:w-1/2 md:mt-3 mt-5"
             data-aos="fade-left"
         >
             <img

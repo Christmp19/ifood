@@ -57,8 +57,11 @@ html::-webkit-scrollbar-thumb {
     @apply transform scale-110 transition duration-300 ease-in delay-75;
 }
 .active {
-    @apply text-green-700;
+    @apply text-green-700 bg-gray-200 md:bg-transparent;
 }
+ .dark .active {
+    @apply bg-gray-600 md:bg-transparent border-b-2 border-solid border-green-700;
+ }
 
 .satisfy-regular {
     font-family: "Satisfy", cursive;
