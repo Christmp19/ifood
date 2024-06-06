@@ -34,11 +34,11 @@
     id="about"
 >
     <div
-        class="flex flex-col items-center justify-center lg:flex-row md:px-8 px-4"
+        class="flex flex-col items-center justify-center lg:flex-row mx-auto lg:max-w-6xl md:max-w-4xl max-w-2xl px-4"
     >
         <div
             bind:this={imageContainer}
-            class="flex justify-center items-center lg:w-1/2"
+            class="justify-center items-center hidden md:hidden lg:block lg:w-1/2"
             data-aos="fade-left"
         >
             <img
@@ -57,6 +57,17 @@
             >
                 Qu’est-Ce Qui Rend Notre Nourriture Délicieuse!
             </h3>
+            <div
+            bind:this={imageContainer}
+            class="flex lg:hidden justify-center items-center lg:w-1/2 mt-3"
+            data-aos="fade-left"
+        >
+            <img
+                src={AboutImg}
+                alt="About Img"
+                class="relative lg:w-full w-4/5 transition-transform duration-500"
+            />
+        </div>
             <p class="text-gray-700 dark:text-white/90 py-2 md:text-lg text-md">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ut
                 explicabo, numquam iusto est a ipsum assumenda tempore esse

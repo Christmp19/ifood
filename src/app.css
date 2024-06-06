@@ -34,7 +34,7 @@
 
 /* Pour une transition de défilement en douceur */
 html {
-    @apply scroll-smooth overflow-x-hidden scroll-pt-32;
+    @apply scroll-smooth scroll-pt-32;
 }
 
 /* Scrollbar custom */
