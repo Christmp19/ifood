@@ -24,14 +24,15 @@
   });
 </script>
 
-<section class="min-h-screen flex justify-center items-center" id="home">
+<!-- Hero section -->
+<section class="dark:bg-gray-800 bg-gray-100 min-h-screen flex justify-center items-center" id="home">
   <div class='flex flex-col items-center justify-center lg:flex-row mx-auto lg:max-w-6xl md:max-w-4xl max-w-2xl md:px-12 px-4 md:pb-20 pt-20 md:pt-36 lg:pt-28 pb-20'>
     <div
       class="order-2 lg:order-1 content text-center lg:w-1/2 lg:text-left lg:pt-10 md:pt-14"
       data-aos="fade-up"
     >
-      <span class="block text-4xl font-semibold mb-2 text-green-600 py-4">Bienvenue Aux Gourmets</span>
-      <h2 class="md:text-5xl text-3xl font-bold mb-4 text-blue-950 leading-tight dark:text-white/90">
+      <h1 class="block text-3xl md:text-4xl font-semibold mb-2 text-green-600 py-4">Bienvenue Aux Gourmets</h1>
+      <h2 class="md:text-5xl text-4xl font-bold mb-4 text-blue-950 leading-snug dark:text-white/90">
         Différentes Épices Pour Les Différents Goûts 😋
       </h2>
       <div
@@ -46,7 +47,7 @@
         class="absolute pointer-events-none top-[-100px] right-[-100px] w-[80px] h-[80px] sm:top-[-150px] sm:right-[-150px] sm:w-[120px] sm:h-[120px] lg:w-[150px] lg:h-[150px] lg:top-[-200px] lg:right-[-200px] transition-transform duration-500"
       /> -->
     </div>
-      <p class="text-gray-700 dark:text-white/90 mb-6 text-lg">
+      <p class="text-gray-700 dark:text-white/90 mb-6 md:text-lg text-md">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis unde
         dolores temporibus hic quam debitis tenetur harum nemo.
       </p>

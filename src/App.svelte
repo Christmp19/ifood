@@ -4,6 +4,7 @@
     import { onDestroy, onMount } from "svelte";
     import Navbar from "./components/header/Navbar.svelte";
     import Hero from "./components/main/Hero.svelte";
+    import About from "./components/main/About.svelte";
 
     // Code pour le bouton retour en haut
     let backtotop: HTMLAnchorElement;
@@ -68,12 +69,13 @@
     // //===Fin de code pour le mode sombre===//
 </script>
 
-<header class='dark:bg-gray-700 shadow-lg fixed top-0 w-full left-0 right-0 z-50'>
+<header class='dark:bg-gray-700 bg-gray-100 shadow-lg fixed top-0 w-full left-0 right-0 z-50'>
     <Navbar />
 </header>
 
-<main class="dark:bg-gray-800 bg-gray-100">
+<main>
     <Hero />
+    <About />
 </main>
 
 <footer></footer>

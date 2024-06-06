@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 
 /*--------------------------------------------------------------
@@ -57,4 +58,8 @@ html::-webkit-scrollbar-thumb {
 }
 .active {
     @apply text-green-700;
+}
+
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
 }
