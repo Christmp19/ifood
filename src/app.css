@@ -33,13 +33,28 @@
 
 /* Pour une transition de défilement en douceur */
 html {
-    scroll-behavior: smooth;
+    @apply scroll-smooth overflow-x-hidden scroll-pt-32;
+}
+
+/* Scrollbar custom */
+html::-webkit-scrollbar {
+    @apply w-2 px-1;
+}
+
+html::-webkit-scrollbar-track {
+   @apply bg-white;
+}
+
+html::-webkit-scrollbar-thumb {
+    @apply bg-green-600 rounded-3xl;
 }
 
 #anime:hover {
     @apply dark:text-gray-300 text-green-700;
 }
-
+#animation:hover {
+    @apply transform scale-110 transition duration-300 ease-in delay-75;
+}
 .active {
     @apply text-green-700;
 }

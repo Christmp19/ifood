@@ -1,11 +1,9 @@
 <script>
 	import {
 		Navbar,
-		NavBrand,
 		NavLi,
 		NavUl,
 		NavHamburger,
-		Button,
 	} from "flowbite-svelte";
 	import { DarkMode } from "flowbite-svelte";
 	import { ShoppingBagSolid } from "flowbite-svelte-icons";
@@ -48,8 +46,8 @@
 
 </script>
  
-<nav class='dark:bg-gray-800'>
-<Navbar fluid class="dark:bg-gray-800 container mx-auto lg:max-w-6xl md:max-w-4xl max-w-2xl md:px-8 px-4">
+<!-- Navbar -->
+<Navbar fluid class="md:px-28 px-4">
 	<div class=" md:order-3 order-2 flex">
 		<DarkMode {btnClass} />
 		<NavHamburger
@@ -57,7 +55,6 @@
 		/>
 	
 	</div>
-
 	<NavUl class=" order-2 font-['Inter']">
 		<NavLi href="#home" id="anime" class={`text-lg dark:text-white ${activeSection === 'home' ? 'active' : ''}`}>Accueil</NavLi>
 		<NavLi href="#about" id="anime" class={`text-lg dark:text-white ${activeSection === 'about' ? 'active' : ''}`}>A propos</NavLi>
@@ -69,7 +66,6 @@
 			<ShoppingBagSolid class='w-8 md:w-6 md:h-6 h-8' />
 			<span class='absolute md:top-5 ml-6 md:ml-4 w-5 h-5 md:w-4 md:h-4 rounded-full flex justify-center items-center bg-green-600 text-center text-white'>0</span>
 		 </NavLi>
-		<!-- <NavLi href="#recrutement">Recrutement</NavLi> -->
 	</NavUl>
        <div class='order-1'>
 		 <a href="/" class="flex items-center gap-2"> 
@@ -79,6 +75,3 @@
 	   </div>
 	
 </Navbar>
-</nav>
-
-<!-- <h1 class="animate__animated animate__bounce">An animated element</h1> -->
