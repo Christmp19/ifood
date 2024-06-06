@@ -67,16 +67,16 @@
 			>A propos</NavLi
 		>
 		<NavLi
-			href="#popularMenue"
-			id="anime"
-			class={`text-lg dark:text-white ${activeSection === "popularMenue" ? "active" : ""}`}
-			>Menu populaire</NavLi
-		>
-		<NavLi
 			href="#menu"
 			id="anime"
 			class={`text-lg dark:text-white ${activeSection === "menu" ? "active" : ""}`}
 			>Menu</NavLi
+		>
+		<NavLi
+			href="#popularMenue"
+			id="anime"
+			class={`text-lg dark:text-white ${activeSection === "popularMenue" ? "active" : ""}`}
+			>Menu populaire</NavLi
 		>
 		<NavLi
 			href="#order"

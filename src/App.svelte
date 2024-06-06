@@ -92,5 +92,5 @@
     class="back-to-top flex items-center justify-center"
     on:click={scrollToTop}
 >
-    <i class="bi bi-arrow-up-short"></i>
+    <i class="bi bi-caret-up-fill"></i>
 </a>

@@ -16,15 +16,15 @@
     z-index: 996;
     border-radius: 50px;
     transition: all 0.4s;
-    @apply bg-green-500 md:h-12 md:w-12 h-10 w-10;
+    @apply bg-green-600 h-10 w-10 !important;
 }
 
 .back-to-top i {
-    @apply text-3xl text-white;
+    @apply text-xl text-white;
 }
 
 .back-to-top:hover {
-    @apply bg-green-600 text-white;
+    @apply bg-green-500 text-white !important;
 }
 
 .back-to-top.active {

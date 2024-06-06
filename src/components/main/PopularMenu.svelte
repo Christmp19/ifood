@@ -11,6 +11,7 @@
     }
 </script>
 
+<!-- Popular Menu section -->
 <section
     class="flex justify-center items-center bg-gray-200 py-8 px-3 dark:bg-gray-900"
     id="popularMenue"
