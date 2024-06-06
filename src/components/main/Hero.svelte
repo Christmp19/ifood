@@ -24,8 +24,8 @@
   });
 </script>
 
-<section class="min-h-screen" id="home">
-  <div class='flex flex-col items-center justify-center lg:flex-row mx-auto lg:max-w-6xl md:max-w-4xl max-w-2xl md:px-10 px-4 md:py-24 pt-20 md:pt-28 pb-20 lg:pb-20'>
+<section class="min-h-screen flex justify-center items-center" id="home">
+  <div class='flex flex-col items-center justify-center lg:flex-row mx-auto lg:max-w-6xl md:max-w-4xl max-w-2xl md:px-12 px-4 md:pb-20 pt-20 md:pt-36 lg:pt-28 pb-20'>
     <div
       class="order-2 lg:order-1 content text-center lg:w-1/2 lg:text-left lg:pt-10"
       data-aos="fade-up"
@@ -47,7 +47,7 @@
 
     <div
       bind:this={imageContainer}
-      class="image order-1 lg:order-2 relative lg:w-1/2 flex justify-center items-center mt-10 lg:mt-0"
+      class="image order-1 lg:order-2 relative lg:w-1/2 flex justify-center items-center pt-10 lg:pt-10"
       data-aos="fade-left"
     >
       <img src={Hero1} alt="hero 1" class="relative w-full transition-transform duration-500" />
