@@ -2,6 +2,7 @@
     import { OrderItems } from "../../assets/ExportImages";
 </script>
 
+<!-- Order section -->
 <section
     class="flex justify-center items-center bg-gray-200 pb-8 pt-5 px-3 dark:bg-gray-900"
     id="order"

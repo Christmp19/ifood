@@ -19,7 +19,7 @@
         </div>
 
         <div
-            class="box-container grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 px-4 md:px-8"
+            class="box-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 px-4 md:px-8"
         >
             {#each menuItems as item (item.alt)}
                 <a

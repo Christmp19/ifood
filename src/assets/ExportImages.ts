@@ -51,37 +51,37 @@ export const menuItems = [
     {
         src: Menu1,
         alt: "Menu Img 1",
-        title: "Nourriture ",
+        title: "Burger Nugget",
         price: "2500frs"
     },
     {
         src: Menu2,
         alt: "Menu Img 2",
-        title: "Nourriture ",
+        title: "Pizza aux Olives ",
         price: "3500frs"
     },
     {
         src: Menu3,
         alt: "Menu Img 3",
-        title: "Nourriture ",
+        title: "Tacos ",
         price: "5000frs"
     },
     {
         src: Menu4,
         alt: "Menu Img 4",
-        title: "Nourriture ",
+        title: "Sandwich Jambon",
         price: "4500frs"
     },
     {
         src: Menu5,
         alt: "Menu Img 5",
-        title: "Nourriture ",
+        title: "Frites ",
         price: "4500frs"
     },
     {
         src: Menu6,
         alt: "Menu Img 6",
-        title: "Nourriture ",
+        title: "Pizza Reine",
         price: "4500frs"
     },
 ];
@@ -224,5 +224,140 @@ export const OrderItems = [
         src: Icon3,
         alt: "location",
         title: "56, rue de Paris, 75016 Paris",
+    },
+]
+
+export const FooterItemsLinks = [
+    {
+        id: 1,
+        title: "our menu",
+        links: [
+            {
+                id: 1,
+                name: "pizza",
+                href: "#autre"
+            },
+            {
+                id: 2,
+                name: "burger",
+                href: "#autre"
+            },
+            {
+                id: 3,
+                name: "chicken",
+                href: "#autre"
+            },
+            {
+                id: 4,
+                name: "pasta",
+                href: "#autre"
+            },
+            {
+                id: 5,
+                name: "and more...",
+                href: "#autre"
+            },
+        ]
+    },
+    {
+        id: 2,
+        title: "quick linkss",
+        links: [
+            {
+                id: 1,
+                name: "home",
+                href: "#home"
+            },
+            {
+                id: 2,
+                name: "about",
+                href: "#about"
+            },
+            {
+                id: 3,
+                name: "popular",
+                href: "#popularMenue"
+            },
+            {
+                id: 4,
+                name: "menu",
+                href: "#menu"
+            },
+            {
+                id: 5,
+                name: "order",
+                href: "#order"
+            },
+            {
+                id: 6,
+                name: "blogs",
+                href: "#blog"
+            },
+        ]
+    },
+    {
+        id: 3,
+        title: "extra linkss",
+        links: [
+            {
+                id: 1,
+                name: "my order",
+                href: "#autre"
+            },
+            {
+                id: 2,
+                name: "my account",
+                href: "#autre"
+            },
+            {
+                id: 3,
+                name: "my favorite",
+                href: "#autre"
+            },
+            {
+                id: 4,
+                name: "terms of use",
+                href: "#autre"
+            },
+            {
+                id: 5,
+                name: "privacy policy",
+                href: "#autre"
+            },
+        ]
+    },
+]
+
+export const FooterItemsDays = [
+    {
+        id: 1,
+        title: "opening hours",
+        days: [
+            {
+                id: 1,
+                day: "monday",
+                hour: "7:00am to 10:30pm",
+            },
+            {
+                id: 2,
+                day: "tuesday",
+                hour: "7:00am to 10:30pm",
+            },
+            {
+                id: 3,
+                day: "wednesday",
+                hour: "7:00am to 10:30pm",
+            },
+            {
+                id: 4,
+                day: "friday",
+                hour: "7:00am to 10:30pm",
+            },
+            {
+                id: 5,
+                day: "saturday and sunday",
+                hour: "closed",
+            },
+        ]
     },
 ]

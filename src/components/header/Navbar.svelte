@@ -87,7 +87,7 @@
 		<NavLi
 			href="#blog"
 			id="anime"
-			class={`text-lg dark:text-white ${activeSection === "blog" ? "active" : ""}`}
+			class={`text-lg dark:text-white ${activeSection === "blog" || activeSection === "footer" ? "active" : ""}`}
 			>Blog</NavLi
 		>
 		<NavLi href="#panier" id="anime" class="flex">

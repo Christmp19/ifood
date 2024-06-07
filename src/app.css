@@ -90,3 +90,7 @@ html::-webkit-scrollbar-thumb {
 ::placeholder {
     @apply dark:text-white/80;
 }
+
+.boxes a:hover i {
+    @apply pr-4 transition-all duration-300 ease-in;
+}
