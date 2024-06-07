@@ -14,7 +14,7 @@
 <!-- Popular Menu section -->
 <section
     class="flex justify-center items-center bg-gray-200 pb-8 pt-5 px-3 dark:bg-gray-900"
-    id="popularMenue"
+    id="popular"
 >
     <div class="lg:flex-row mx-auto lg:max-w-6xl md:max-w-4xl max-w-2xl px-4">
         <div class="text-center mb-8">
@@ -34,7 +34,7 @@
                     <!-- svelte-ignore a11y-missing-content -->
                     <a
                         href="#"
-                        class="fas fa-heart text-2xl text-gray-600 dark:text-white/80 absolute top-4 right-4 hover:text-green-600"
+                        class="fas fa-heart text-2xl text-gray-600 dark:text-white/80 absolute top-4 right-4 hover:text-green-600 dark:hover:text-green-600"
                     ></a>
                     <div class="image mb-4 flex justify-center items-center">
                         <img

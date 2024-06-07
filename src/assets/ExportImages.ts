@@ -276,7 +276,7 @@ export const FooterItemsLinks = [
             {
                 id: 3,
                 name: "popular",
-                href: "#popularMenue"
+                href: "#popular"
             },
             {
                 id: 4,

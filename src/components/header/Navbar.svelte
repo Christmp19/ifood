@@ -1,11 +1,11 @@
 <script>
 	import { Navbar, NavLi, NavUl, NavHamburger } from "flowbite-svelte";
 	import { DarkMode } from "flowbite-svelte";
-	import { ShoppingBagSolid } from "flowbite-svelte-icons";
+	import { ShoppingBagSolid, UserCircleSolid } from "flowbite-svelte-icons";
 	import Logo from "../../assets/logo.png";
 	import { onMount } from "svelte";
 	import { cart } from "../../stores/cartStore";
-	
+
 	let cartCount = 0;
 	$: $cart, (cartCount = $cart.reduce((acc, item) => acc + item.quantity, 0));
 
@@ -48,7 +48,18 @@
 <!-- Navbar -->
 <Navbar fluid class="lg:px-28 md:px-6 px-4">
 	<div class=" md:order-3 order-2 flex">
-		<DarkMode {btnClass} />
+		<div class="flex justify-between gap-10 items-center">
+			<div
+				id="anime"
+				class="hidden md:flex flex-col items-center justify-center text-center cursor-pointer"
+			>
+				<UserCircleSolid
+					class="w-8 md:w-5 md:h-5 h-8 dark:text-white"
+				/>
+				<span class="dark:text-white">Sign in</span>
+			</div>
+			<DarkMode {btnClass} />
+		</div>
 		<NavHamburger
 			class={"outline-none text-black dark:text-white dark:bg-transparent bg-transparent hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg text-xl p-1"}
 		/>
@@ -69,29 +80,38 @@
 		<NavLi
 			href="#menu"
 			id="anime"
-			class={`text-lg dark:text-white ${activeSection === "menu" ? "active" : ""}`}
+			class={`text-lg dark:text-white ${activeSection === "menu" || activeSection === "popular" ? "active" : ""}`}
 			>Menu</NavLi
 		>
-		<NavLi
-			href="#popularMenue"
+		<!-- <NavLi
+			href="#popular"
 			id="anime"
-			class={`text-lg dark:text-white ${activeSection === "popularMenue" ? "active" : ""}`}
+			class={`text-lg dark:text-white ${activeSection === "popular" ? "active" : ""}`}
 			>Menu populaire</NavLi
+		> -->
+		<NavLi
+			href="#blog"
+			id="anime"
+			class={`text-lg dark:text-white ${activeSection === "blog" ? "active" : ""}`}
+			>Blog</NavLi
 		>
 		<NavLi
 			href="#order"
 			id="anime"
-			class={`text-lg dark:text-white ${activeSection === "order" ? "active" : ""}`}
+			class={`text-lg dark:text-white ${activeSection === "order" || activeSection === "footer" ? "active" : ""}`}
 			>Commander</NavLi
 		>
 		<NavLi
-			href="#blog"
+			href="#compte"
 			id="anime"
-			class={`text-lg dark:text-white ${activeSection === "blog" || activeSection === "footer" ? "active" : ""}`}
-			>Blog</NavLi
+			class="flex md:hidden flex-col gap-1"
 		>
+			<UserCircleSolid class="w-8 h-8 dark:text-white" />
+			<span class="dark:text-white text-lg">Sign in</span>
+		</NavLi>
+
 		<NavLi href="#panier" id="anime" class="flex">
-			<ShoppingBagSolid class="w-8 md:w-6 md:h-6 h-8" />
+			<ShoppingBagSolid class="w-8 md:w-6 md:h-6 h-8 dark:text-white" />
 			<span
 				class="absolute md:top-5 ml-6 md:ml-4 w-5 h-5 md:w-4 md:h-4 rounded-full flex justify-center items-center bg-green-600 text-center text-white"
 				>{cartCount}</span
