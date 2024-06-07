@@ -47,7 +47,7 @@
             <div
                 class="grid grid-cols-1 md:grid-cols-2 gap-5 justify-between items-center mb-4"
             >
-                <div class="w-full mb-2">
+                <div class="w-full md:mb-2">
                     <span
                         class="transition-colors duration-300 group-hover:text-white font-semibold text-gray-800 dark:text-white/80 text-lg"
                         >Your Name</span
@@ -59,7 +59,7 @@
                         class="w-full p-3 border border-gray-300 bg-gray-100 dark:bg-gray-800 shadow-md rounded-lg focus:border-green-500 mt-2 dark:text-white/80 focus:outline-none focus:ring-1 focus:ring-green-500 caret-green-600"
                     />
                 </div>
-                <div class="w-full mb-2">
+                <div class="w-full md:mb-2">
                     <span
                         class="transition-colors duration-300 group-hover:text-white font-semibold text-gray-800 dark:text-white/80 text-lg"
                         >Your Number</span
@@ -76,7 +76,7 @@
             <div
                 class="grid grid-cols-1 md:grid-cols-2 gap-5 justify-between items-center mb-4"
             >
-                <div class="w-full mb-2">
+                <div class="w-full md:mb-2">
                     <span
                         class="transition-colors duration-300 group-hover:text-white font-semibold text-gray-800 dark:text-white/80 text-lg"
                         >Your Order</span
@@ -88,7 +88,7 @@
                         class="w-full p-3 border border-gray-300 bg-gray-100 dark:bg-gray-800 shadow-md rounded-lg focus:border-green-500 mt-2 dark:text-white/80 focus:outline-none focus:ring-1 focus:ring-green-500 caret-green-600"
                     />
                 </div>
-                <div class="w-full mb-2">
+                <div class="w-full md:mb-2">
                     <span
                         class="transition-colors duration-300 group-hover:text-white font-semibold text-gray-800 dark:text-white/80 text-lg"
                         >How Much</span
@@ -105,7 +105,7 @@
             <div
                 class="grid grid-cols-1 md:grid-cols-2 gap-5 justify-between items-center mb-4"
             >
-                <div class="w-full mb-2">
+                <div class="w-full md:mb-2">
                     <span
                         class="transition-colors duration-300 group-hover:text-white font-semibold text-gray-800 dark:text-white/80 text-lg"
                         >Your Details</span
@@ -117,19 +117,23 @@
                         class="w-full p-3 border border-gray-300 bg-gray-100 dark:bg-gray-800 shadow-md rounded-lg focus:border-green-500 mt-2 dark:text-white/80 focus:outline-none focus:ring-1 focus:ring-green-500 caret-green-600"
                     />
                 </div>
-                <div class="w-full mb-2">
+                <div class="w-full md:mb-2">
                     <span
                         class="transition-colors duration-300 group-hover:text-white font-semibold text-gray-800 dark:text-white/80 text-lg"
                         >Pick Up Time</span
                     >
                     <input
+                        required
+                        placeholder="time"
                         type="datetime-local"
                         class="w-full p-3 border border-gray-300 bg-gray-100 dark:bg-gray-800 mt-2 dark:text-white/80 shadow-md rounded-lg focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 caret-green-600"
                     />
                 </div>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-5 justify-between mb-4">
+            <div
+                class="grid grid-cols-1 md:grid-cols-2 gap-5 justify-between mb-4"
+            >
                 <div class="w-full mb-2">
                     <textarea
                         placeholder="your address"
