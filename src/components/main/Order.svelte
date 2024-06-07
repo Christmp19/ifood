@@ -45,7 +45,7 @@
             data-aos="fade-up"
         >
             <div
-                class="grid grid-cols-2 gap-5 justify-between items-center mb-4"
+                class="grid grid-cols-1 md:grid-cols-2 gap-5 justify-between items-center mb-4"
             >
                 <div class="w-full mb-2">
                     <span
@@ -74,7 +74,7 @@
             </div>
 
             <div
-                class="grid grid-cols-2 gap-5 justify-between items-center mb-4"
+                class="grid grid-cols-1 md:grid-cols-2 gap-5 justify-between items-center mb-4"
             >
                 <div class="w-full mb-2">
                     <span
@@ -103,7 +103,7 @@
             </div>
 
             <div
-                class="grid grid-cols-2 gap-5 justify-between items-center mb-4"
+                class="grid grid-cols-1 md:grid-cols-2 gap-5 justify-between items-center mb-4"
             >
                 <div class="w-full mb-2">
                     <span
@@ -129,7 +129,7 @@
                 </div>
             </div>
 
-            <div class="grid grid-cols-2 gap-5 justify-between mb-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5 justify-between mb-4">
                 <div class="w-full mb-2">
                     <textarea
                         placeholder="your address"
