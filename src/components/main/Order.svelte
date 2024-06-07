@@ -138,7 +138,7 @@
                 <div class="w-full mb-2">
                     <textarea
                         placeholder="your address"
-                        class="w-full h-full p-3 border border-gray-300 bg-gray-100 dark:bg-gray-800 dark:text-white/80 shadow-md rounded-lg focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 caret-green-600"
+                        class="w-full h-40 md:h-full p-3 border border-gray-300 bg-gray-100 dark:bg-gray-800 dark:text-white/80 shadow-md rounded-lg focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 caret-green-600"
                         required
                     ></textarea>
                 </div>
