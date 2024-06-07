@@ -14,7 +14,7 @@
         <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 p-6">
             {#each FooterItemsLinks as item (item.id)}
                 <div class="boxes">
-                    <h3 class="text-2xl capitalize transition-colors duration-300 group-hover:text-white font-bold dark:text-white/90 text-indigo-900 mb-4">
+                    <h3 class="text-xl md:text-2xl capitalize transition-colors duration-300 group-hover:text-white font-bold dark:text-white/90 text-indigo-900 mb-4">
                         {item.title}
                     </h3>
                     {#each item.links as link (link.id)}
@@ -30,7 +30,7 @@
 
             {#each FooterItemsDays as item (item.id)}
                 <div class="box">
-                    <h3 class="text-2xl capitalize text-indigo-900 mb-4 transition-colors duration-300 group-hover:text-white font-bold dark:text-white/90">
+                    <h3 class="text-xl md:text-2xl capitalize text-indigo-900 mb-4 transition-colors duration-300 group-hover:text-white font-bold dark:text-white/90">
                         {item.title}
                     </h3>
                     {#each item.days as day (day.id)}
