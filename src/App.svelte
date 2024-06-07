@@ -7,6 +7,7 @@
     import About from "./components/main/About.svelte";
     import Menu from "./components/main/Menu.svelte";
     import PopularMenu from "./components/main/PopularMenu.svelte";
+    import Blog from "./components/main/Blog.svelte";
 
     // Code pour le bouton retour en haut
     let backtotop: HTMLAnchorElement;
@@ -80,6 +81,7 @@
     <About />
     <Menu />
     <PopularMenu />
+    <Blog />
 </main>
 
 <footer></footer>

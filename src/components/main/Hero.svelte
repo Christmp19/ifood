@@ -53,7 +53,7 @@
       </p>
       <a
         href="#order"
-        class="btn bg-green-700 text-white text-lg py-2 px-4 rounded hover:bg-green-600 transition duration-300"
+        class="btn bg-green-700 text-white text-lg py-2 px-4 rounded hover:bg-green-600 transition-colors duration-300"
         >Commander Maintenant</a
       >
     </div>

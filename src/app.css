@@ -24,7 +24,7 @@
 }
 
 .back-to-top:hover {
-    @apply bg-green-500 text-white !important;
+    @apply bg-green-500 text-white transition-colors duration-300 !important;
 }
 
 .back-to-top.active {
@@ -73,4 +73,16 @@ html::-webkit-scrollbar-thumb {
 
 .transition-hover:hover div>p {
     @apply text-green-500;
+}
+
+.box:hover .image>img {
+    @apply transition-transform duration-500 transform scale-110;
+}
+
+.image>h3 {
+    @apply transition-all duration-500 transform;
+}
+
+.box:hover .image>h3 {
+    @apply translate-x-0 opacity-100;
 }

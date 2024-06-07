@@ -9,7 +9,7 @@
 >
     <div class="lg:flex-row mx-auto lg:max-w-6xl md:max-w-4xl max-w-2xl px-4">
         <div class="text-center mb-8">
-            <h2 class="satisfy-regular text-green-600 text-3xl">Notre Carte</h2
+            <h2 class="satisfy-regular font-semibold text-green-600 text-3xl">Notre Carte</h2
             >
             <h3
                 class="md:text-3xl text-2xl font-bold py-4 text-blue-950 leading-snug dark:text-white/90"
@@ -19,7 +19,7 @@
         </div>
 
         <div
-            class="box-container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 px-4 md:px-8"
+            class="box-container grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 px-4 md:px-8"
         >
             {#each menuItems as item (item.alt)}
                 <a

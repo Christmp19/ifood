@@ -50,7 +50,7 @@
         </div>
         <div class="lg:w-1/2 w-full text-center lg:text-start">
             <div>
-                <h2 class="satisfy-regular text-green-600 text-3xl">
+                <h2 class="satisfy-regular font-semibold text-green-600 text-3xl">
                 Pourquoi Nous Choisir?
             </h2>
             <h3
@@ -77,7 +77,7 @@
             <div class="py-4">
                 <a
                     href="#order"
-                    class="btn bg-green-700 text-white text-lg py-2 px-4 rounded hover:bg-green-600 transition duration-300"
+                    class="btn bg-green-700 text-white text-lg py-2 px-4 rounded hover:bg-green-600 transition-colors duration-300"
                     >Lire la suite</a
                 >
             </div>

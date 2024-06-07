@@ -18,7 +18,7 @@
 >
     <div class="lg:flex-row mx-auto lg:max-w-6xl md:max-w-4xl max-w-2xl px-4">
         <div class="text-center mb-8">
-            <h2 class="satisfy-regular text-green-600 text-3xl">Nourriture Populaire</h2>
+            <h2 class="satisfy-regular font-semibold text-green-600 text-3xl">Nourriture Populaire</h2>
             <h3 class="md:text-3xl text-2xl font-bold py-4 text-blue-950 leading-snug dark:text-white/90">Nos Plats Spéciaux</h3>
         </div>
 
@@ -44,7 +44,7 @@
                         />
                     </div>
                     <div>
-                        <h3 class="text-md transition-colors duration-300 group-hover:text-white font-bold text-gray-900 dark:text-white/90">{item.name}</h3>
+                        <h3 class="text-md transition-hover transition-colors duration-300 group-hover:text-white font-bold text-gray-900 dark:text-white/90">{item.name}</h3>
                         <div
                             class="stars flex justify-center items-center mb-2"
                         >
@@ -79,7 +79,7 @@
                             />
                             <button
                                 on:click={() => handleAddToCart(item.id)}
-                                class="bg-green-600 text-white py-2 px-4 rounded hover:bg-green-500 transition duration-300"
+                                class="bg-green-600 text-white py-2 px-4 rounded hover:bg-green-500 transition-colors duration-300"
                             >
                                 Ajouter au panier
                             </button>

@@ -16,6 +16,9 @@ import foodImg5 from "./food-5.png";
 import foodImg6 from "./food-6.png";
 import foodImg7 from "./food-7.png";
 import foodImg8 from "./food-8.png";
+import BlogImg1 from './blog-1.jpg';
+import BlogImg2 from './blog-2.jpg';
+import BlogImg3 from './blog-3.jpg';
 
 
 export const ServiceImages = [
@@ -164,4 +167,38 @@ export const foodItems: FoodItem[] = [
         reviews: 50,
     },
 ];
+interface BlogItem {
+    id: number;
+    date: string;
+    image: string;
+    tags: string[];
+    title: string;
+    content: string;
+}
 
+export const blogItems: BlogItem[] = [
+    {
+        id: 1,
+        date: '21st May, 2021',
+        image: BlogImg1,
+        tags: ['food', 'burger', 'pizza'],
+        title: 'Blog title goes here...',
+        content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, earum.'
+    },
+    {
+        id: 2,
+        date: '21st May, 2021',
+        image: BlogImg2,
+        tags: ['food', 'burger', 'pizza'],
+        title: 'Blog title goes here...',
+        content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, earum.'
+    },
+    {
+        id: 3,
+        date: '21st May, 2021',
+        image: BlogImg3,
+        tags: ['food', 'burger', 'pizza'],
+        title: 'Blog title goes here...',
+        content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, earum.'
+    }
+];
