@@ -48,7 +48,7 @@
 <!-- Navbar -->
 <Navbar fluid class="lg:px-28 md:px-6 px-4">
 	<div class=" md:order-3 order-2 flex">
-		<div class="flex justify-between gap-10 items-center">
+		<div class="flex justify-between gap-6 items-center">
 			<div
 				id="anime"
 				class="hidden md:flex flex-col items-center justify-center text-center cursor-pointer"
@@ -57,6 +57,17 @@
 					class="w-8 md:w-5 md:h-5 h-8 dark:text-white"
 				/>
 				<span class="dark:text-white">Sign in</span>
+			</div>
+			<div
+				class="hidden md:flex flex-col items-center justify-center text-center cursor-pointer"
+			>
+				<ShoppingBagSolid
+					class="w-8 md:w-6 md:h-6 h-8 dark:text-white"
+				/>
+				<span
+					class="absolute md:top-5 ml-6 md:ml-4 w-5 h-5 md:w-4 md:h-4 rounded-full flex justify-center items-center bg-green-600 text-center text-white"
+					>{cartCount}</span
+				>
 			</div>
 			<DarkMode {btnClass} />
 		</div>
@@ -101,16 +112,12 @@
 			class={`text-lg dark:text-white ${activeSection === "order" || activeSection === "footer" ? "active" : ""}`}
 			>Commander</NavLi
 		>
-		<NavLi
-			href="#compte"
-			id="anime"
-			class="flex md:hidden flex-col gap-1"
-		>
+		<NavLi href="#compte" id="anime" class="flex md:hidden flex-col gap-1">
 			<UserCircleSolid class="w-8 h-8 dark:text-white" />
 			<span class="dark:text-white text-lg">Sign in</span>
 		</NavLi>
 
-		<NavLi href="#panier" id="anime" class="flex">
+		<NavLi href="#panier" id="anime" class="flex md:hidden">
 			<ShoppingBagSolid class="w-8 md:w-6 md:h-6 h-8 dark:text-white" />
 			<span
 				class="absolute md:top-5 ml-6 md:ml-4 w-5 h-5 md:w-4 md:h-4 rounded-full flex justify-center items-center bg-green-600 text-center text-white"
