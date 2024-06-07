@@ -59,7 +59,7 @@
 				<span class="dark:text-white">Sign in</span>
 			</div>
 			<div
-				class="hidden md:flex flex-col items-center justify-center text-center cursor-pointer"
+				class="flex flex-col items-center justify-center text-center cursor-pointer"
 			>
 				<ShoppingBagSolid
 					class="w-8 md:w-6 md:h-6 h-8 dark:text-white"
@@ -117,13 +117,13 @@
 			<span class="dark:text-white text-lg">Sign in</span>
 		</NavLi>
 
-		<NavLi href="#panier" id="anime" class="flex md:hidden">
+		<!-- <NavLi href="#panier" id="anime" class="flex md:hidden">
 			<ShoppingBagSolid class="w-8 md:w-6 md:h-6 h-8 dark:text-white" />
 			<span
 				class="absolute md:top-5 ml-6 md:ml-4 w-5 h-5 md:w-4 md:h-4 rounded-full flex justify-center items-center bg-green-600 text-center text-white"
 				>{cartCount}</span
 			>
-		</NavLi>
+		</NavLi> -->
 	</NavUl>
 	<div class="order-1">
 		<a href="/" class="flex items-center gap-2">
