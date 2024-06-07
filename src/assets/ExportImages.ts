@@ -19,6 +19,9 @@ import foodImg8 from "./food-8.png";
 import BlogImg1 from './blog-1.jpg';
 import BlogImg2 from './blog-2.jpg';
 import BlogImg3 from './blog-3.jpg';
+import Icon1 from "./icon-1.png";
+import Icon2 from "./icon-2.png";
+import Icon3 from "./icon-3.png";
 
 
 export const ServiceImages = [
@@ -202,3 +205,24 @@ export const blogItems: BlogItem[] = [
         content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, earum.'
     }
 ];
+
+export const OrderItems = [
+    {
+        id: 1,
+        src: Icon1,
+        alt: "time",
+        title: "7:00am to 10:30pm",
+    },
+    {
+        id: 2,
+        src: Icon2,
+        alt: "phone",
+        title: "+33 123 456 789",
+    },
+    {
+        id: 3,
+        src: Icon3,
+        alt: "location",
+        title: "56, rue de Paris, 75016 Paris",
+    },
+]

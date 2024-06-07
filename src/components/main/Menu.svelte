@@ -4,7 +4,7 @@
 
 <!-- Menu section -->
 <section
-    class="flex justify-center items-center bg-gray-100 py-8 px-3 dark:bg-gray-800"
+    class="flex justify-center items-center bg-gray-100 pb-8 pt-5 px-3 dark:bg-gray-800"
     id="menu"
 >
     <div class="lg:flex-row mx-auto lg:max-w-6xl md:max-w-4xl max-w-2xl px-4">
@@ -12,7 +12,7 @@
             <h2 class="satisfy-regular font-semibold text-green-600 text-3xl">Notre Carte</h2
             >
             <h3
-                class="md:text-3xl text-2xl font-bold py-4 text-blue-950 leading-snug dark:text-white/90"
+                class="transition-colors duration-300 md:text-3xl text-2xl font-bold py-4 text-blue-950 leading-snug dark:text-white/90"
             >
                 Nos Meilleurs Plats
             </h3>

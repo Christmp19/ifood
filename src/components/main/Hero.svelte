@@ -32,7 +32,7 @@
       data-aos="fade-up"
     >
       <h1 class="block text-3xl md:text-4xl font-semibold mb-2 text-green-600 py-4">Bienvenue Aux Gourmets</h1>
-      <h2 class="md:text-5xl text-4xl font-bold mb-4 text-blue-950 leading-snug dark:text-white/90">
+      <h2 class="md:text-5xl text-4xl font-bold mb-4 text-blue-950 leading-snug dark:text-white/90 transition-colors duration-300">
         Différentes Épices Pour Les Différents Goûts 😋
       </h2>
       <div
@@ -47,7 +47,7 @@
         class="absolute pointer-events-none top-[-100px] right-[-100px] w-[80px] h-[80px] sm:top-[-150px] sm:right-[-150px] sm:w-[120px] sm:h-[120px] lg:w-[150px] lg:h-[150px] lg:top-[-200px] lg:right-[-200px] transition-transform duration-500"
       /> -->
     </div>
-      <p class="text-gray-700 dark:text-white/90 mb-6 md:text-lg text-md">
+      <p class="text-gray-700 dark:text-white/90 mb-6 md:text-lg text-md transition-colors duration-300">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis unde
         dolores temporibus hic quam debitis tenetur harum nemo.
       </p>

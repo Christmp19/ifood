@@ -54,7 +54,7 @@
                 Pourquoi Nous Choisir?
             </h2>
             <h3
-                class="md:text-3xl text-2xl font-bold py-4 text-blue-950 leading-snug dark:text-white/90"
+                class="md:text-3xl text-2xl font-bold py-4 transition-colors duration-300 text-blue-950 leading-snug dark:text-white/90"
             >
                 Qu’est-Ce Qui Rend Notre Nourriture Délicieuse!
             </h3>
@@ -69,7 +69,7 @@
                 class="relative lg:w-full w-4/5 transition-transform duration-500"
             />
         </div>
-            <p class="text-gray-700 dark:text-white/90 py-2 md:text-lg text-md">
+            <p class="text-gray-700 dark:text-white/90 py-2 md:text-lg text-md transition-colors duration-300">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ut
                 explicabo, numquam iusto est a ipsum assumenda tempore esse
                 corporis?

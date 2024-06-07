@@ -13,13 +13,13 @@
 
 <!-- Popular Menu section -->
 <section
-    class="flex justify-center items-center bg-gray-200 py-8 px-3 dark:bg-gray-900"
+    class="flex justify-center items-center bg-gray-200 pb-8 pt-5 px-3 dark:bg-gray-900"
     id="popularMenue"
 >
     <div class="lg:flex-row mx-auto lg:max-w-6xl md:max-w-4xl max-w-2xl px-4">
         <div class="text-center mb-8">
             <h2 class="satisfy-regular font-semibold text-green-600 text-3xl">Nourriture Populaire</h2>
-            <h3 class="md:text-3xl text-2xl font-bold py-4 text-blue-950 leading-snug dark:text-white/90">Nos Plats Spéciaux</h3>
+            <h3 class="transition-colors duration-300 md:text-3xl text-2xl font-bold py-4 text-blue-950 leading-snug dark:text-white/90">Nos Plats Spéciaux</h3>
         </div>
 
         <div
@@ -74,7 +74,7 @@
                                 type="number"
                                 min="1"
                                 value="1"
-                                class="bg-red-600 text-white p-2 rounded w-20 text-center focus:outline-none focus:border-green-500"
+                                class="bg-blue-950 text-white p-2 rounded w-20 text-center focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500 caret-green-600"
                                 bind:this={quantityInputs[item.id]}
                             />
                             <button

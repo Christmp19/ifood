@@ -86,3 +86,7 @@ html::-webkit-scrollbar-thumb {
 .box:hover .image>h3 {
     @apply translate-x-0 opacity-100;
 }
+
+::placeholder {
+    @apply dark:text-white/80;
+}
