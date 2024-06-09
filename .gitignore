@@ -3,6 +3,7 @@ node_modules
 /build
 /.svelte-kit
 /package
+client_secret.json
 .env
 .env.*
 !.env.example
